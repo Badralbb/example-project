@@ -2,9 +2,8 @@
 import React from "react";
 import reactElementToJSXString from "react-element-to-jsx-string";
 
-import { ButtonsCard } from "./ui/button";
-
 import { useRouter } from "next/navigation";
+import { ButtonsCard } from "./ui/buttons";
 
 export function TailwindcssButtons() {
   const router = useRouter();
